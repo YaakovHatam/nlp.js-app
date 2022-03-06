@@ -136,7 +136,7 @@ module.exports = (options) => ({
       },
       {
         "entityName": "sys.spacy_gpe",
-        "uiColor": material.deepPurple['500']
+        "uiColor": material.deepPurple['500'] 
       },
       {
         "entityName": "sys.spacy_loc",

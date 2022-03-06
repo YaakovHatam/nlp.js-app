@@ -55,15 +55,6 @@ const swaggerOptions = {
    }
 };
 
-if (process.env.HEROKU_APP_NAME) {
-   const name = process.env.HEROKU_APP_NAME;
-   if (name.includes('.')) {
-      swaggerOptions.host = process.env.HEROKU_APP_NAME;
-   } else {
-      swaggerOptions.host = `${process.env.HEROKU_APP_NAME}.herokuapp.com`;
-   }
-}
-
 /**
  * Starts the server.
  */
